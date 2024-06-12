@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context=".activities.AgregarInmuebleActivity">
+
+    <EditText
+        android:id="@+id/edtDepartamento"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Departamento" />
+
+    <EditText
+        android:id="@+id/edtMunicipio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edtDepartamento"
+        android:hint="Municipio" />
+
+    <EditText
+        android:id="@+id/edtResidencia"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edtMunicipio"
+        android:hint="Residencia" />
+
+    <EditText
+        android:id="@+id/edtCalle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edtResidencia"
+        android:hint="Calle" />
+
+    <EditText
+        android:id="@+id/edtPoligono"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edtCalle"
+        android:hint="Polígono" />
+
+    <EditText
+        android:id="@+id/edtNumeroCasa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edtPoligono"
+        android:inputType="number"
+        android:hint="Número de Casa" />
+
+    <EditText
+        android:id="@+id/edtIdPropietario"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edtNumeroCasa"
+        android:inputType="number"
+        android:hint="ID Propietario" />
+
+    <Button
+        android:id="@+id/btnGuardarInmueble"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edtIdPropietario"
+        android:text="Guardar Inmueble" />
+
+</RelativeLayout>

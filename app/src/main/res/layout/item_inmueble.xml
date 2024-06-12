@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="8dp">
+
+    <TextView
+        android:id="@+id/txtDepartamento"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Departamento" />
+
+    <TextView
+        android:id="@+id/txtMunicipio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Municipio" />
+
+    <TextView
+        android:id="@+id/txtResidencia"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Residencia" />
+
+    <TextView
+        android:id="@+id/txtCalle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Calle" />
+
+    <TextView
+        android:id="@+id/txtPoligono"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Poligono" />
+
+    <TextView
+        android:id="@+id/txtNumeroCasa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Número de Casa" />
+
+    <TextView
+        android:id="@+id/txtIdPropietario"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ID Propietario" />
+</LinearLayout>
